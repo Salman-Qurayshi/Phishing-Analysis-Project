@@ -42,7 +42,7 @@ wget https://raw.githubusercontent.com/rf-peixoto/phishing_pot/main/email/sample
 
 - Opened the email in **Thunderbird**.
 
-![image.png](attachment:e5e4bbbf-a199-4dc3-9cef-a3fc3db24228:image.png)
+![image.png](image1.png)
 
 The email body utilized several classic phishing indicators:
 
@@ -60,7 +60,7 @@ python3 eioc.py sample-3333.eml
 
 This produces IPs, URLs, headers, and attachment hashes (if present).
 
-![image.png](attachment:1e6edfaf-481f-4b15-b9b6-b890c5e0895a:image.png)
+![image.png](image2.png)
 
 Additionally, the raw `.eml` was manually inspected in Sublime Text to double-check headers.
 
