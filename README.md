@@ -5,6 +5,12 @@ This repository documents the forensic analysis of a phishing email sample (`sam
 The goal is to extract **indicators of compromise (IoCs)**, analyze message headers and body content, inspect embedded URLs, and provide a short technical report with defensive recommendations.
 
 ---
+## 📑 Full Report
+
+For the detailed Report see [REPORT.md](REPORT.md).
+
+
+---
 
 ## Sample Source
 
@@ -36,7 +42,7 @@ wget https://raw.githubusercontent.com/rf-peixoto/phishing_pot/main/email/sample
     - `https://euintfarecenter.pagedemo.co/?id=h9bd2112sq`
 ---
 
-## 🔎 Analysis Process
+## Analysis Process
 
 ### Step 1  Initial Review
 
@@ -141,7 +147,7 @@ Observations:
 
 ---
 
-## 🧾 Artifact Analysis
+## Artifact Analysis
 
 ### Sender Analysis
 
@@ -156,7 +162,7 @@ Observations:
 
 ---
 
-## ✅ Verdict
+## Verdict
 
 This email is a **credential phishing attempt**:
 
@@ -167,7 +173,7 @@ This email is a **credential phishing attempt**:
 
 ---
 
-## 🛡 Defense Actions
+## Defense Actions
 
 If this email were received in production:
 
